@@ -24,7 +24,8 @@ class PhotoViewModel : ObservableObject {
         
         // Guard es como un trycase, si se logra crear la variable url continua, sino, muestra error
         // Obtener el objeto URL
-        guard let url = URL(string: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=10")
+        // guard let url = URL(string: "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=10")
+        guard let url = URL(string: "https://www.freetogame.com/api/games?platform=browser&category=shooter&sort-by=release-date")
             else {
                 // Si no lo logra, muestra error y sale de la funcion
                 print("Invalid URL")

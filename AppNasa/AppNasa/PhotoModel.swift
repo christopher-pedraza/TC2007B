@@ -20,12 +20,12 @@ struct PhotoModel : Decodable, Identifiable {
     // vienen del JSON
     enum CodingKeys : String, CodingKey {
         case title
-        case explanation
+        case explanation = "short_description"
         // por ejemplo, si en nuestras variables tuvieran en vez de explanation
         // description, aqui pondriamos 'case description = "explanation"' para
         // decir que nuestra variable va a tomar ese valor del JSON. Si no tengo
         // cambios lo pongo igual
-        case url
+        case url = "thumbnail"
     }
     
 }
