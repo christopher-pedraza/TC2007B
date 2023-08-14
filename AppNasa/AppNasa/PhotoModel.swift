@@ -29,3 +29,7 @@ struct PhotoModel : Decodable, Identifiable {
     }
     
 }
+
+extension PhotoModel {
+    public static var defaultPhoto = PhotoModel(title: "Starbreak", explanation: "A Roguelike MMORPG with MetroidVania-style platformer.", url: "https://www.freetogame.com/g/118/thumbnail.jpg")
+}

@@ -15,7 +15,8 @@ struct ContentView: View {
             // Para cada uno de los elementos dentro del
             // del arreglo, lo guardamos en item
             List(PhotoVM.arrPhoto) { item in
-                VStack {
+                NavigationLink(destination: PhotoDetailView(photo: item), label: {
+                    VStack {
                     Text(item.title)
                     // Con async image podemos ir descargando las imagenes
                     // mientras las vamos necesitamos aunque no las tengamos
@@ -24,13 +25,18 @@ struct ContentView: View {
                         .scaledToFit()
                         .frame(height: 150)
                         .clipped()
-                }
+                }})
+                
+                
             }
             .task {
+                // Para manejar errores podemos hacer uso de do-catch
+                // Se intenta correr lo que esta dentro del do, pero si se
+                // encuentra un error, se corre lo que esta dentro del catch
                 do {
                     try await PhotoVM.getPhotosData()
                 } catch {
-                    print("Error")
+                    print("Error - ContentView: No se pudo obtener los datos de las fotos.")
                 }
             }
         }

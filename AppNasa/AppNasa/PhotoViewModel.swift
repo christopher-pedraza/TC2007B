@@ -28,7 +28,7 @@ class PhotoViewModel : ObservableObject {
         guard let url = URL(string: "https://www.freetogame.com/api/games?platform=browser&category=shooter&sort-by=release-date")
             else {
                 // Si no lo logra, muestra error y sale de la funcion
-                print("Invalid URL")
+                print("Error - PhotoViewModel: Invalid URL")
                 return
             }
         
@@ -42,7 +42,7 @@ class PhotoViewModel : ObservableObject {
         
         // Checar si se obtuvo una respuesta o no
         guard (response as? HTTPURLResponse)?.statusCode == 200 else {
-            print("HTTP Request Failed")
+            print("Error - PhotoViewModel: HTTP Request Failed")
             return
         }
         
