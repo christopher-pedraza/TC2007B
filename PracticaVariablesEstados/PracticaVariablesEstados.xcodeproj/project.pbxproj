@@ -15,6 +15,7 @@
 		FB2499A02A8AA540005958FC /* PlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB24999F2A8AA540005958FC /* PlanetsViewModel.swift */; };
 		FB2499A22A8AA603005958FC /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2499A12A8AA603005958FC /* Planet.swift */; };
 		FB2499A42A8AAA4C005958FC /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2499A32A8AAA4C005958FC /* PlanetView.swift */; };
+		FBF8D80B2A8C21DE00B2019B /* AltertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8D80A2A8C21DE00B2019B /* AltertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FB24999F2A8AA540005958FC /* PlanetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewModel.swift; sourceTree = "<group>"; };
 		FB2499A12A8AA603005958FC /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		FB2499A32A8AAA4C005958FC /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		FBF8D80A2A8C21DE00B2019B /* AltertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FB24998D2A8AA08E005958FC /* PlanetsApp.swift */,
 				FB24998F2A8AA08E005958FC /* ContentView.swift */,
 				FB24999B2A8AA11B005958FC /* PlanetsView.swift */,
+				FBF8D80A2A8C21DE00B2019B /* AltertController.swift */,
 				FB2499A32A8AAA4C005958FC /* PlanetView.swift */,
 				FB24999F2A8AA540005958FC /* PlanetsViewModel.swift */,
 				FB2499A12A8AA603005958FC /* Planet.swift */,
@@ -154,6 +157,7 @@
 				FB2499A42A8AAA4C005958FC /* PlanetView.swift in Sources */,
 				FB24998E2A8AA08E005958FC /* PlanetsApp.swift in Sources */,
 				FB24999C2A8AA11B005958FC /* PlanetsView.swift in Sources */,
+				FBF8D80B2A8C21DE00B2019B /* AltertController.swift in Sources */,
 				FB2499A22A8AA603005958FC /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

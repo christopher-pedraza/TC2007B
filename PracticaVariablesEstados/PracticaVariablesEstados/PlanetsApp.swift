@@ -11,7 +11,13 @@ import SwiftUI
 struct PlanetsApp: App {
     var body: some Scene {
         WindowGroup {
-            PlanetsView()
+            AlertController {
+                NavigationSplitView {
+                    PlanetsView()
+                } detail: {
+                    Text("Planetas")
+                }
+            }
         }
     }
 }
