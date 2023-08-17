@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469ADECE28DB603C00775AE3 /* AppMaravillasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469ADECD28DB603C00775AE3 /* AppMaravillasApp.swift */; };
+		469ADED028DB603C00775AE3 /* MaravillasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469ADECF28DB603C00775AE3 /* MaravillasView.swift */; };
+		469ADED228DB603D00775AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469ADED128DB603D00775AE3 /* Assets.xcassets */; };
+		469ADED528DB603D00775AE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469ADED428DB603D00775AE3 /* Preview Assets.xcassets */; };
+		469ADEDC28DB6A1300775AE3 /* MaravillaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469ADEDB28DB6A1300775AE3 /* MaravillaItemView.swift */; };
+		469ADEDE28DB6B3F00775AE3 /* MaravillaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469ADEDD28DB6B3F00775AE3 /* MaravillaDetailView.swift */; };
+		469ADF0028DDF72600775AE3 /* MaravillasModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469ADEFF28DDF72600775AE3 /* MaravillasModel.swift */; };
+		469ADF0228DDF74800775AE3 /* MaravillasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469ADF0128DDF74800775AE3 /* MaravillasViewModel.swift */; };
+		FBE3E0A42A8EB8B100A3A2D6 /* Bradley Hand Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBE3E0A32A8EB8B100A3A2D6 /* Bradley Hand Bold.ttf */; };
+		FBE3E0A72A8EBB2E00A3A2D6 /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E0A62A8EBB2E00A3A2D6 /* PerfilView.swift */; };
+		FBFDC2082A8EB374000A6BA1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFDC2072A8EB374000A6BA1 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		469ADECA28DB603C00775AE3 /* AppMaravillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMaravillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		469ADECD28DB603C00775AE3 /* AppMaravillasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMaravillasApp.swift; sourceTree = "<group>"; };
+		469ADECF28DB603C00775AE3 /* MaravillasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaravillasView.swift; sourceTree = "<group>"; };
+		469ADED128DB603D00775AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469ADED428DB603D00775AE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		469ADEDB28DB6A1300775AE3 /* MaravillaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaravillaItemView.swift; sourceTree = "<group>"; };
+		469ADEDD28DB6B3F00775AE3 /* MaravillaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaravillaDetailView.swift; sourceTree = "<group>"; };
+		469ADEFF28DDF72600775AE3 /* MaravillasModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaravillasModel.swift; sourceTree = "<group>"; };
+		469ADF0128DDF74800775AE3 /* MaravillasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaravillasViewModel.swift; sourceTree = "<group>"; };
+		FBE3E0A32A8EB8B100A3A2D6 /* Bradley Hand Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bradley Hand Bold.ttf"; sourceTree = "<group>"; };
+		FBE3E0A52A8EB8FF00A3A2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FBE3E0A62A8EBB2E00A3A2D6 /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
+		FBFDC2072A8EB374000A6BA1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469ADEC728DB603C00775AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469ADEC128DB603C00775AE3 = {
+			isa = PBXGroup;
+			children = (
+				469ADECC28DB603C00775AE3 /* AppMaravillas */,
+				469ADECB28DB603C00775AE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		469ADECB28DB603C00775AE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				469ADECA28DB603C00775AE3 /* AppMaravillas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		469ADECC28DB603C00775AE3 /* AppMaravillas */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3E0A52A8EB8FF00A3A2D6 /* Info.plist */,
+				FBE3E0A82A8EBB3F00A3A2D6 /* Views */,
+				FBE3E0A22A8EB7F300A3A2D6 /* Fonts */,
+				469ADED128DB603D00775AE3 /* Assets.xcassets */,
+				469ADED328DB603D00775AE3 /* Preview Content */,
+			);
+			path = AppMaravillas;
+			sourceTree = "<group>";
+		};
+		469ADED328DB603D00775AE3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				469ADED428DB603D00775AE3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FBE3E0A22A8EB7F300A3A2D6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3E0A32A8EB8B100A3A2D6 /* Bradley Hand Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FBE3E0A82A8EBB3F00A3A2D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBFDC2072A8EB374000A6BA1 /* MainView.swift */,
+				469ADECD28DB603C00775AE3 /* AppMaravillasApp.swift */,
+				469ADECF28DB603C00775AE3 /* MaravillasView.swift */,
+				469ADEFF28DDF72600775AE3 /* MaravillasModel.swift */,
+				469ADF0128DDF74800775AE3 /* MaravillasViewModel.swift */,
+				469ADEDD28DB6B3F00775AE3 /* MaravillaDetailView.swift */,
+				FBE3E0A62A8EBB2E00A3A2D6 /* PerfilView.swift */,
+				469ADEDB28DB6A1300775AE3 /* MaravillaItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		469ADEC928DB603C00775AE3 /* AppMaravillas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469ADED828DB603D00775AE3 /* Build configuration list for PBXNativeTarget "AppMaravillas" */;
+			buildPhases = (
+				469ADEC628DB603C00775AE3 /* Sources */,
+				469ADEC728DB603C00775AE3 /* Frameworks */,
+				469ADEC828DB603C00775AE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppMaravillas;
+			productName = AppMaravillas;
+			productReference = 469ADECA28DB603C00775AE3 /* AppMaravillas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469ADEC228DB603C00775AE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					469ADEC928DB603C00775AE3 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 469ADEC528DB603C00775AE3 /* Build configuration list for PBXProject "AppMaravillas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469ADEC128DB603C00775AE3;
+			productRefGroup = 469ADECB28DB603C00775AE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				469ADEC928DB603C00775AE3 /* AppMaravillas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		469ADEC828DB603C00775AE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE3E0A42A8EB8B100A3A2D6 /* Bradley Hand Bold.ttf in Resources */,
+				469ADED528DB603D00775AE3 /* Preview Assets.xcassets in Resources */,
+				469ADED228DB603D00775AE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469ADEC628DB603C00775AE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE3E0A72A8EBB2E00A3A2D6 /* PerfilView.swift in Sources */,
+				469ADF0228DDF74800775AE3 /* MaravillasViewModel.swift in Sources */,
+				FBFDC2082A8EB374000A6BA1 /* MainView.swift in Sources */,
+				469ADEDC28DB6A1300775AE3 /* MaravillaItemView.swift in Sources */,
+				469ADF0028DDF72600775AE3 /* MaravillasModel.swift in Sources */,
+				469ADED028DB603C00775AE3 /* MaravillasView.swift in Sources */,
+				469ADECE28DB603C00775AE3 /* AppMaravillasApp.swift in Sources */,
+				469ADEDE28DB6B3F00775AE3 /* MaravillaDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		469ADED628DB603D00775AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		469ADED728DB603D00775AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469ADED928DB603D00775AE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppMaravillas/Preview Content\"";
+				DEVELOPMENT_TEAM = MU5USG77D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppMaravillas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.AppMaravillas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		469ADEDA28DB603D00775AE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppMaravillas/Preview Content\"";
+				DEVELOPMENT_TEAM = MU5USG77D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppMaravillas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itesm.AppMaravillas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469ADEC528DB603C00775AE3 /* Build configuration list for PBXProject "AppMaravillas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469ADED628DB603D00775AE3 /* Debug */,
+				469ADED728DB603D00775AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469ADED828DB603D00775AE3 /* Build configuration list for PBXNativeTarget "AppMaravillas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469ADED928DB603D00775AE3 /* Debug */,
+				469ADEDA28DB603D00775AE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469ADEC228DB603C00775AE3 /* Project object */;
+}
