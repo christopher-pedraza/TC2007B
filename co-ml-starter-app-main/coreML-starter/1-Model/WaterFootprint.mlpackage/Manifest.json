@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "99DC6CD8-3F40-4397-9C7E-6B6F86810560": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "BAB12898-DE1C-4DAB-97FA-47966485981D": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "FE5D47C4-053B-4ACE-90E3-2E981E97E247": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "WaterFootprint.mlmodel",
+            "path": "com.apple.CoreML/WaterFootprint.mlmodel"
+        }
+    },
+    "rootModelIdentifier": "FE5D47C4-053B-4ACE-90E3-2E981E97E247"
+}

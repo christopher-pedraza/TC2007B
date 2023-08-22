@@ -1,0 +1,8 @@
+{
+  "MLModelVersionStringKey" : "1.0",
+  "MLModelDescriptionKey" : "model from Water Footprint ",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.version" : "15.5.0"
+  },
+  "MLModelAuthorKey" : "Tiffany"
+}
