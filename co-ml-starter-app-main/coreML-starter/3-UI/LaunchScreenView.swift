@@ -32,45 +32,93 @@ struct LaunchScreenView: View {
                 // info
                 // TODO: Replace with description of your app
                 VStack(spacing: 20) {
-                    Text("Discover how much water is needed to grow our food!")
+                    Text("Descubre cuánta agua se necesita para crecer nuestra comida")
                     
-                    Text("This app uses the camera and AR (powered by ML) to show the environmental impact of different foods.")
-                    
-                    Text("Gather these ingredients to get started.")
+                    Text("Reconoce las siguientes frutas: ")
                 }
                 .padding()
                 .multilineTextAlignment(.center)
                 
-                // item list
-                // TODO: replace with the names of your items
-                HStack(spacing: 10) {
-                    VStack {
-                        Text("🍅")
-                        Text("Tomato")
-                    }
-                    .padding()
+                VStack {
                     
-                    VStack {
-                        Text("🍊")
-                        Text("Orange")
+                    HStack(spacing: 10) {
+                        VStack {
+                            Text("🍎")
+                            Text("Apple")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🥑")
+                            Text("Avocado")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍌")
+                            Text("Banana")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍊")
+                            Text("Grapefruit")
+                        }
+                        .padding()
                     }
-                    .padding()
+                    .background(Color(UIColor.secondarySystemBackground))
+                    .cornerRadius(10)
                     
-                    VStack {
-                        Text("🥑")
-                        Text("Avocado")
+                    HStack(spacing: 10) {
+                        VStack {
+                            Text("🍇")
+                            Text("Grapes")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍈")
+                            Text("Guava")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍋")
+                            Text("Lemon")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍊")
+                            Text("Orange")
+                        }
+                        .padding()
                     }
-                    .padding()
+                    .background(Color(UIColor.secondarySystemBackground))
+                    .cornerRadius(10)
                     
-                    VStack {
-                        Text("🥜")
-                        Text("Walnut")
+                    HStack(spacing: 10) {
+                        VStack {
+                            Text("🍐")
+                            Text("Pear")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍅")
+                            Text("Tomato")
+                        }
+                        .padding()
+                        
+                        VStack {
+                            Text("🍉")
+                            Text("Watermelon")
+                        }
+                        .padding()
                     }
-                    .padding()
+                    .background(Color(UIColor.secondarySystemBackground))
+                    .cornerRadius(10)
                 }
-                .background(Color(UIColor.secondarySystemBackground))
-                .cornerRadius(10)
-                .padding()
                 
                 // start button
                 NavigationLink(destination: ClassificationView()){

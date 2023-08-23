@@ -1,32 +1,62 @@
 [
     {
-        "label": "apple",
+        "label": "Apple",
         "water": 10,
         "emoji": "🍎"
     },
     {
-        "label": "orange",
-        "water": 14,
-        "emoji": "🍊"
-    },
-    {
-        "label": "avocado",
+        "label": "Avocado",
         "water": 60,
         "emoji": "🥑"
     },
     {
-        "label": "banana",
+        "label": "Banana",
         "water": 5,
         "emoji": "🍌"
     },
     {
-        "label": "grapes",
+        "label": "Grapefruit",
+        "water": 5,
+        "emoji": " "
+    },
+    {
+        "label": "Grapes",
         "water": 5,
         "emoji": "🍇"
     },
     {
-        "label": "tomato",
+        "label": "Guava",
+        "water": 5,
+        "emoji": " "
+    },
+    {
+        "label": "Lemon",
+        "water": 5,
+        "emoji": "🍋"
+    },
+    {
+        "label": "Orange",
+        "water": 14,
+        "emoji": "🍊"
+    },
+    {
+        "label": "Pear",
+        "water": 5,
+        "emoji": "🍐"
+    },
+    {
+        "label": "Tomato",
         "water": 5,
         "emoji": "🍅"
+    },
+    {
+        "label": "Unknown",
+        "water": 0,
+        "emoji": "🤷🏽‍♂️"
+    },
+    {
+        "label": "Watermelon",
+        "water": 30,
+        "emoji": "🍉"
     }
 ]
