@@ -1,0 +1,10 @@
+{
+  "MLModelDescriptionKey" : "Classifies dogs and cats",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.app.tag" : "119",
+    "com.apple.createml.version" : "13.4.1",
+    "com.apple.coreml.model.preview.type" : "imageClassifier",
+    "com.apple.createml.app.version" : "5.0 Beta"
+  },
+  "MLModelAuthorKey" : "Alumno"
+}

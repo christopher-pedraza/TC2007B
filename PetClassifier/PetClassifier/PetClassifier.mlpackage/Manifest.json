@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "30509D62-9285-46F9-AC35-9504E13B40A1": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        },
+        "6AC2A294-DE7A-42AD-BE0E-2F7A08FEABE1": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "PetClassifier 1.mlmodel",
+            "path": "com.apple.CoreML/PetClassifier 1.mlmodel"
+        },
+        "D129677C-8DCA-4570-AD30-2D51ACA48775": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        }
+    },
+    "rootModelIdentifier": "6AC2A294-DE7A-42AD-BE0E-2F7A08FEABE1"
+}
